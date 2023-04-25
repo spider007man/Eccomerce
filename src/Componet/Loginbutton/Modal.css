@@ -1,0 +1,99 @@
+.click-here{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  background-color: rgba(0,0,0,0.5);
+
+
+}
+.text-form{
+    background-color: rgb(225, 229, 240);
+    position: fixed;
+    top: 10%;
+    left:50%;
+    transform: translate(-50%);
+    display: flex;
+    height:80%;
+    /* margin:40px 20px; */
+    border-radius:50px;
+    
+}
+.login-text{
+    background-color: #2874f0;
+    color: #fff;
+    padding:30px 30px;
+    font-size: 15px;
+   
+}
+h2{ 
+    font-size: 2rem;
+    font-weight: 600;
+}
+.spantag{
+    font-size: 16px;
+    line-height: 160%;
+    color: #dbdbdb;
+    margin-top: 10%;
+}
+.icon3{
+    margin-top: 100px;
+}
+
+/* left sied css */
+.moblie-no{
+    
+    padding: 60px 30px 16px;
+    position: relative;
+    background-color: #fff;
+    
+}
+.m98{
+    font-size: 1.1rem;
+    border-bottom: 2px solid rgb(128, 125, 125);
+    font-weight: 500;
+    /* border: none; */
+
+}
+.moblie-text{
+    white-space: nowrap;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:rgb(128, 125, 125);
+    margin-top: 40px;
+    text-size-adjust: 20px;
+}
+.otpbutton{
+    background-color: rgb(253, 76, 11);
+    color: #dbdbdb;
+    white-space: nowrap;
+    height: 45px;
+    width: 95%;
+    margin-top: 30px;
+    /* margin-left:25px; */
+
+}
+a{
+    text-decoration: none;
+    pointer-events: auto;
+    opacity: 1;
+    color: #2874f0;
+}
+.create-link{
+    color: #2874f0;
+    margin-top: 65%;
+    margin-left: 70px;
+    font-size: 0.8rem;
+    font-weight: 600;
+ 
+}
+.userlog{
+    background-color:#fff;
+    white-space: nowrap;
+    height: 45px;
+    width: 95%;
+    margin-top: 30px;
+    box-shadow: 1px 1px 3px  rgb(128, 125, 125);
+    font-size: 0.9rem;
+}

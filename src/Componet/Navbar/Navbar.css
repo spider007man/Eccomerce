@@ -1,0 +1,75 @@
+
+.mane-containar{
+    background-color: #2874f0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 55px;
+   position:relative;
+   width: 100%;
+
+}
+ /* this is 1st div */
+.logo-flipkart{
+    display: flex;
+    flex-direction: column; 
+    margin-left:15%;
+    
+}
+.explore{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+.plus{
+   color: #ffe500;
+   font-weight: 500;
+}
+ /* this is 2st div */
+ .searchbar{
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.23);
+    width: 90%;
+    height: 36px;
+    max-width: 470px;
+    position: relative;
+
+ }
+input{
+    height: 36px;
+    width: 92%;
+    border: none;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    outline: none;
+}
+ /* this is login button */
+ button{
+    font-weight: 550;
+    font-size: 1rem;
+    height: 30px;
+    width: 8%;
+    /* margin-right:17% ; */
+    color: #2874f0;
+    border: none;
+    
+ }
+  /* this is 3st div */
+.text-line{
+    align-items: center;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: azure;
+    margin-right:10%;
+}
+#icon-cart{
+    margin: 10px;
+}
